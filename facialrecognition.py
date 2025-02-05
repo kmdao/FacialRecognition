@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = np.genfromtxt('training_images.csv', delimiter=',')
+data = np.genfromtxt('datasets/training_images.csv', delimiter=',')
 print(data.shape)
 
 # Define new array dims for Reshape
@@ -73,7 +73,7 @@ for i in range(row_nums.size):
 fig3.show()
 
 # PART 2: TESTING DATA FACIAL RECOGNITION. Each row of the testing data has an image of Bush or Williams.
-test_data = np.genfromtxt('testing_images.csv', delimiter=',')
+test_data = np.genfromtxt('datasets/testing_images.csv', delimiter=',')
 img1 = test_data[0, :]
 img2 = test_data[1, :]
 
