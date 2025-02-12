@@ -6,7 +6,12 @@
 
 ---
 
-Facial detection and recognition in Python using SVD and eigenfaces. 
+A data-driven facial recognition algorithm in Python using singular value
+decomposition for dimensionality reduction and feature extraction.
+Principal component projection on eigenfaces is applied to 
+determine facial similarity and classification.
+Facial images are reconstructed from reduced singular value representation
+to optimize storage and efficiency.
 ## Data Sets
 
 ---
