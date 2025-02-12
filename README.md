@@ -6,7 +6,7 @@
 
 ---
 
-Facial detection and recognition in Pycharm using SVD and eigenfaces.
+Facial detection and recognition in Python using SVD and eigenfaces.
 ## Data Sets
 
 ---
